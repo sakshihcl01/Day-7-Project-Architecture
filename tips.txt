@@ -1,0 +1,17 @@
+TIPS--
+1.Interface:
+List<List<Employee>>GetEmployee();
+List<List<Employee>>GetEmployee(){
+  await Task.Deley(2000);
+}
+
+
+
+   List<Employee> employees=await Operation .GetEmployee
+  
+    List<Employee> employees =await employeeOperation.GetEmployees();
+            Console.WriteLine("All Employees:");
+            foreach (var emp in employees)
+            {
+                Console.WriteLine($"ID: {emp.id}, Name: {emp.name}, Age: {emp.age}");
+            }
